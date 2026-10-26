@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\CameraExplorer.Core\CameraExplorer.Core.csproj" />
+    <ProjectReference Include="..\CameraExplorer.Infrastructure\CameraExplorer.Infrastructure.csproj" />
+	<None Include="..\..\data\cameras-defb.csv" Link="data\cameras-defb.csv" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<AssemblyName>Search</AssemblyName>
+  </PropertyGroup>
+
+</Project>
